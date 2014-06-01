@@ -38,7 +38,25 @@
 
 - (IBAction)predictButtonPressed:(id)sender
 {
-    self.predictionLabel.textColor = self.crystalBall.randomColors;
+    [self changeTextLabel];
+}
+
+- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    self.predictionLabel.text = nil;
+}
+
+- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    NSLog(@"a motion ended");
+    if (motion == UIEventSubtypeMotionShake) {
+        [self changeTextLabel];
+    }
+}
+
+- (void)changeTextLabel
+{
+    //self.predictionLabel.textColor = self.crystalBall.randomColors;
     self.predictionLabel.text = self.crystalBall.randomPrediction;
 }
 

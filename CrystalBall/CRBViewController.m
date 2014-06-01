@@ -21,6 +21,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
     if (!_crystalBall) _crystalBall = [[CRBCrystalBall alloc]init];
 
+    /*
+    //create background image programmatically, and insert the view at the bottom of the heirarchy
+    UIImageView *iv = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"background"]];
+    [self.view insertSubview:iv atIndex:0];
+     */
 }
 
 

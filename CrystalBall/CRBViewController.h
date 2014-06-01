@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class CRBCrystalBall;
 
 @interface CRBViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *predictionLabel;
-@property (nonatomic, strong) NSArray *predictions;
-@property (nonatomic, strong) NSArray *colors;
+@property (nonatomic, strong) CRBCrystalBall *crystalBall;
+
 
 @end

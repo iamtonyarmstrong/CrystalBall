@@ -21,6 +21,7 @@
 		92199D0F193A94E000ECD43E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92199CF1193A94E000ECD43E /* UIKit.framework */; };
 		92199D17193A94E000ECD43E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92199D15193A94E000ECD43E /* InfoPlist.strings */; };
 		92199D19193A94E000ECD43E /* CrystalBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92199D18193A94E000ECD43E /* CrystalBallTests.m */; };
+		929BC290193AC60C0004728D /* CRBCrystalBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 929BC28F193AC60C0004728D /* CRBCrystalBall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		92199D14193A94E000ECD43E /* CrystalBallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrystalBallTests-Info.plist"; sourceTree = "<group>"; };
 		92199D16193A94E000ECD43E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92199D18193A94E000ECD43E /* CrystalBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalBallTests.m; sourceTree = "<group>"; };
+		929BC28E193AC60C0004728D /* CRBCrystalBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBCrystalBall.h; sourceTree = "<group>"; };
+		929BC28F193AC60C0004728D /* CRBCrystalBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBCrystalBall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				92199D03193A94E000ECD43E /* CRBViewController.m */,
 				92199D05193A94E000ECD43E /* Images.xcassets */,
 				92199CF4193A94E000ECD43E /* Supporting Files */,
+				929BC28E193AC60C0004728D /* CRBCrystalBall.h */,
+				929BC28F193AC60C0004728D /* CRBCrystalBall.m */,
 			);
 			path = CrystalBall;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				92199CFE193A94E000ECD43E /* CRBAppDelegate.m in Sources */,
 				92199CFA193A94E000ECD43E /* main.m in Sources */,
 				92199D04193A94E000ECD43E /* CRBViewController.m in Sources */,
+				929BC290193AC60C0004728D /* CRBCrystalBall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

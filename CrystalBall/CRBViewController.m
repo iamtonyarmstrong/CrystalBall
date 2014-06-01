@@ -7,6 +7,7 @@
 //
 
 #import "CRBViewController.h"
+#import "CRBCrystalBall.h"
 
 @interface CRBViewController ()
 
@@ -18,21 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-
-    self.colors = @[[UIColor blackColor], [UIColor greenColor], [UIColor blueColor],
-                    [UIColor redColor], [UIColor grayColor], [UIColor orangeColor]];
-    
-    self.predictions= @[@"It is certain",
-                        @"It is decidedly so",
-                        @"The reply is No",
-                        @"Yes!",
-                        @"Better not to tell you now",
-                        @"Doubtful",
-                        @"The stars are aligned",
-                        @"Concentrate and ask again",
-                        @"Perhaps",
-                        @"Unable to answer now",
-                        @"Maybe, leaning to yes"];
+    if (!_crystalBall) _crystalBall = [[CRBCrystalBall alloc]init];
 
 }
 
@@ -46,8 +33,8 @@
 
 - (IBAction)predictButtonPressed:(id)sender
 {
-    self.predictionLabel.textColor = self.colors[(NSUInteger)arc4random_uniform((int)[self.colors count])];
-    self.predictionLabel.text = self.predictions[(NSUInteger)arc4random_uniform((int)[self.predictions count])];
+    self.predictionLabel.textColor = self.crystalBall.randomColors;
+    self.predictionLabel.text = self.crystalBall.randomPrediction;
 }
 
 

@@ -112,8 +112,6 @@
 		92199CF3193A94E000ECD43E /* CrystalBall */ = {
 			isa = PBXGroup;
 			children = (
-				92199CFC193A94E000ECD43E /* CRBAppDelegate.h */,
-				92199CFD193A94E000ECD43E /* CRBAppDelegate.m */,
 				92199CFF193A94E000ECD43E /* Main.storyboard */,
 				92199D02193A94E000ECD43E /* CRBViewController.h */,
 				92199D03193A94E000ECD43E /* CRBViewController.m */,
@@ -126,6 +124,8 @@
 		92199CF4193A94E000ECD43E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92199CFC193A94E000ECD43E /* CRBAppDelegate.h */,
+				92199CFD193A94E000ECD43E /* CRBAppDelegate.m */,
 				92199CF5193A94E000ECD43E /* CrystalBall-Info.plist */,
 				92199CF6193A94E000ECD43E /* InfoPlist.strings */,
 				92199CF9193A94E000ECD43E /* main.m */,
@@ -457,6 +457,7 @@
 				92199D1E193A94E000ECD43E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92199D1F193A94E000ECD43E /* Build configuration list for PBXNativeTarget "CrystalBallTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				92199D21193A94E000ECD43E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,8 @@
 
 @interface CRBViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *predictionLabel;
+@property (nonatomic, strong) NSArray *predictions;
+@property (nonatomic, strong) NSArray *colors;
+
 @end

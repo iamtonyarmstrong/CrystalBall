@@ -20,11 +20,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="It is decidedly so..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="207" translatesAutoresizingMaskIntoConstraints="NO" id="omu-5j-EYW">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It is decidedly so..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="207" translatesAutoresizingMaskIntoConstraints="NO" id="omu-5j-EYW">
                                 <rect key="frame" x="57" y="184" width="207" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="147" id="w8T-9N-zZQ"/>
+                                    <constraint firstAttribute="height" constant="166" id="w8T-9N-zZQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="32"/>
                                 <color key="textColor" red="0.57298309948979598" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -33,11 +33,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="omu-5j-EYW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="36" id="7T6-RO-yhj"/>
+                            <constraint firstItem="omu-5j-EYW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="57" id="7T6-RO-yhj"/>
                             <constraint firstItem="Izx-03-9lE" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="8pi-Hz-Gkq"/>
-                            <constraint firstItem="omu-5j-EYW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="160" id="f2l-QV-PJ9"/>
+                            <constraint firstItem="omu-5j-EYW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="164" id="f2l-QV-PJ9"/>
                             <constraint firstItem="Izx-03-9lE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="juO-hy-x2M"/>
-                            <constraint firstAttribute="trailing" secondItem="omu-5j-EYW" secondAttribute="trailing" constant="38" id="xgx-8v-JHa"/>
+                            <constraint firstAttribute="trailing" secondItem="omu-5j-EYW" secondAttribute="trailing" constant="56" id="xgx-8v-JHa"/>
                         </constraints>
                     </view>
                     <connections>

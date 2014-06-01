@@ -12,7 +12,7 @@
 @interface CRBViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *predictionLabel;
-@property (nonatomic, strong) CRBCrystalBall *crystalBall;
+@property (nonatomic, strong, readonly) CRBCrystalBall *crystalBall;
 
 
 @end

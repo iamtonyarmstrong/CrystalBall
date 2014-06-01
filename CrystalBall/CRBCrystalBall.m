@@ -10,11 +10,12 @@
 
 @implementation CRBCrystalBall
 
-@synthesize predictions, colors;
+@synthesize predictions = _predictions, colors = _colors;
 
 -(NSArray *) predictions
 {
-    return self.setPredictions;
+    if(!_predictions) _predictions = self.setPredictions;
+    return _predictions;
 }
 
 
@@ -38,7 +39,8 @@
 
 -(NSArray *) colors
 {
-    return self.setColors;
+    if(!_colors) _colors = self.setColors;
+    return _colors;
 }
 
 
